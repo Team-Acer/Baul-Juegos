@@ -1,0 +1,49 @@
+/* estilos del body */
+body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, auto);
+    background-color: #f8f9fa;
+}
+
+/* Estilos del main */
+main {
+    grid-column: 2 / span 10;
+    grid-row: 3 / span 10;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 30px;
+}
+/* Estilos del aside */
+aside {
+    grid-column: 12 / span 3;
+    grid-row: 3 / span 10;
+    background-color: #f0f0f0;
+    padding-top: 20px;
+}
+/* Estilos del footer */
+footer {
+    grid-column: 1 / span 14;
+    grid-row: 14;
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+
+}
+/* Estilos del header */
+
+header {
+    grid-column: 1 / span 14;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0;
+    background-color: #DEDBDB;
+    color: #ffffff;
+}
