@@ -1,120 +1,242 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Title</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/Assets/styles/styles.css">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/Assets/styles/styles.css" />
+    <link rel="stylesheet" href="/Assets/styles/styles-slime.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <nav class="navbar navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-                <img src="/Assets/IMG/logo.png" alt="" class="img-fluid" style="width: 75px; height: auto;">
-               
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
-                    aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> Baul de juegos</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="texto" aria-current="page" href="Index.html">Home</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="texto" href="#" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Listado de juegos
-                                </a>
-                                <ul class="dropdown-menu dropdown-menu-dark">
+      <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <img
+            src="/Assets/IMG/logo.png"
+            alt=""
+            class="img-fluid"
+            style="width: 75px; height: auto"
+          />
 
-                                    <li>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://image.api.playstation.com/cdn/EP0001/CUSA05847_00/pEBJnRh6DeL2BfyZRa9jZRrNuSav42QPJIXyqo6Rgcr52o9kYLwY4EpouAzWh4Fu.png"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                Far cry 5</a>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://cdn1.epicgames.com/offer/cf87285950ba492bbdc370b9d265ea36/FC4_StorePortrait_1200x1600_1200x1600-7f366d878f5553dae499860243c537ee"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                Far cry 4</a>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://image.api.playstation.com/cdn/UP0006/CUSA07995_00/n3DB0JqnM3vTpswFEnNUYenmqS5wSln9.png"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                A way out</a>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://image.api.playstation.com/vulcan/img/cfn/11307NUlRPcxCgzizu6gpFZiR_WIqYHV9W0G8obBn0J1qCXY-SjbkzKihVNA3WzUQHbD08zWVaN-a7U5--t57lc-gckkQ0f-.png"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                Slime rancher</a>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://upload.wikimedia.org/wikipedia/en/6/6d/Subnautica_cover_art.png"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                Subnautica</a>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://media.vandal.net/m/27261/metro-last-light-redux-201412417324_1.jpg"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                Metro last night </a>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5l5LTUVlth6NeaM2DfJqU-EEZQrScZR0fjZdpaHGOCw&s"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                Fallout 3 </a>
-                                        </div>
-                                        <div class="d-flex align-items-center">
-                                            <a class="dropdown-item" id="texto" href="#">
-                                                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202009/2818/FuG72QFUf4aRYbSBAMNH2xwm.png"
-                                                    class="img-fluid me-1" style="width: 50px; height: auto;" alt="">
-                                                Skyrim</a>
-                                        </div>
-                                </ul>
-                            </li>
-                        </ul>
-                        <form class="d-flex mt-3" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Baul de juegos
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
             </div>
-        </nav>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    id="texto"
+                    aria-current="page"
+                    href="Index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    id="texto"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Listado de juegos
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://image.api.playstation.com/cdn/EP0001/CUSA05847_00/pEBJnRh6DeL2BfyZRa9jZRrNuSav42QPJIXyqo6Rgcr52o9kYLwY4EpouAzWh4Fu.png"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          Far cry 5</a
+                        >
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://cdn1.epicgames.com/offer/cf87285950ba492bbdc370b9d265ea36/FC4_StorePortrait_1200x1600_1200x1600-7f366d878f5553dae499860243c537ee"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          Far cry 4</a
+                        >
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://image.api.playstation.com/cdn/UP0006/CUSA07995_00/n3DB0JqnM3vTpswFEnNUYenmqS5wSln9.png"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          A way out</a
+                        >
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://image.api.playstation.com/vulcan/img/cfn/11307NUlRPcxCgzizu6gpFZiR_WIqYHV9W0G8obBn0J1qCXY-SjbkzKihVNA3WzUQHbD08zWVaN-a7U5--t57lc-gckkQ0f-.png"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          Slime rancher</a
+                        >
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://upload.wikimedia.org/wikipedia/en/6/6d/Subnautica_cover_art.png"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          Subnautica</a
+                        >
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://media.vandal.net/m/27261/metro-last-light-redux-201412417324_1.jpg"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          Metro last night
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5l5LTUVlth6NeaM2DfJqU-EEZQrScZR0fjZdpaHGOCw&s"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          Fallout 3
+                        </a>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <a class="dropdown-item" id="texto" href="#">
+                          <img
+                            src="https://image.api.playstation.com/vulcan/ap/rnd/202009/2818/FuG72QFUf4aRYbSBAMNH2xwm.png"
+                            class="img-fluid me-1"
+                            style="width: 50px; height: auto"
+                            alt=""
+                          />
+                          Skyrim</a
+                        >
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
+
+    <!-- MAIN -->
     <main>
+      <div class="container-fluid cuadro">
+        <h3>¿De qué trata?</h3>
+        <p>
+          Trata de una Ranchera con el nombre de Beatrix LeBeau, luego de
+          ganarse la vida en lugar remoto llamado la ‘Lejana, Lejana Pradera’
+          Beatrix se prepara para una nueva aventura en el lugar "Isla
+          Arcoíris". El juego usa los slimes en lugar de animales, estos botan
+          un material llamado plort. Estos plorts se venden o se usan para
+          fabricar artefactos. El precio de los plorts varía según el tipo de
+          slime. Para poder tener los plorts solo basta con alimentar a los
+          slimes con sus respectivas dietas.
+        </p>
+      </div>
 
+      <div class="container-fluid cuadro">
+        <h3>Logros de Descubrimientos de Lugares</h3>
+        <div class="logros">
+            <img src="https://static.wixstatic.com/media/d18f01_67e56435ff7940c1b7376a6466afae25~mv2.png/v1/fill/w_80,h_80,al_c,q_85,enc_auto/logro%20tipo%20B.png" alt="">
+            <p>Mine, All Mine
+                Discovered the Quarry
+                Descubrió la cantera</p>
+        </div>
+      </div>
+
+      
     </main>
-    <footer>
-    </footer>
+    <!-- ASIDE -->
+    <aside>
+        <div class="contenido-mapa">
+            <h2 class="texto-mapa">MAPA DE LA REGIÓN</h2>
+            <a href="https://steamuserimages-a.akamaihd.net/ugc/1844811606352000607/1073A1BCBA4DE63AC8C55C0396E7C53D769AA4F2/">
+            <img src="/Assets/IMG/SLIME/MAPA-SLIME.webp" class="img-fluid mapa" alt="" />
+        </a>
+        </div>
+    </aside>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
+    <footer></footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
