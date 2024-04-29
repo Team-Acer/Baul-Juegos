@@ -23,10 +23,6 @@ main {
     font-size: 16px;
     border-radius: 8px;
     background-color: #F4F4F9;
-    padding: 30px;
-    color: black;
-
-    background-color: #F4F4F9;
     color: black;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -35,18 +31,20 @@ main {
 
 /* Estilos del aside */
 aside {
-    grid-column: 12 / span 3;
+    /* grid-column: 12 / span 3;
     grid-row: 2 / span 11;
     background-color: #000000;
-    padding-top: 20px;
-}
-
-    /* grid-row: 2 / span 13;
+    padding-top: 20px; */
+    
+    grid-row: 2 / span 13;
+    grid-column: 12 / span 3;
     background-color: #48575E;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
-} */
+
+}
+
 
 
 
@@ -193,8 +191,6 @@ p {
 }
 .col{
     padding-top: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 a{
     text-decoration: none;
