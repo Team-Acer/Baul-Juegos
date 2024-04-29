@@ -59,15 +59,7 @@ footer {
 
 /* Estilos del header */
 
-header {
-    grid-row: 15;
-    background-color: #2A3235;
-    color: #fff;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-  }
-  
+
 
 
 nav {
