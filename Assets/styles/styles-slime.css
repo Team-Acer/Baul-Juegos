@@ -1,0 +1,53 @@
+.cuadro{
+    text-align: center;
+    background-color: lightgray;
+    border: solid 1px;
+    font-size: 13px;
+    max-width: 800px;
+    margin-bottom: 10px;    
+}
+
+.contenido-mapa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mapa{
+    height: auto;
+    width: 300px;
+}
+
+.texto-mapa{
+    color: white;
+    font-size: 30px;
+}
+
+.logros{
+    margin-bottom: 10px;
+}
+
+.insignia {
+    display: flex;
+    align-items: center; /* Centrar verticalmente */
+}
+
+.insignia img {
+    max-width: 80px; /* Anchura máxima de la imagen */
+    margin-right: 10px; 
+}
+
+.texto {
+    flex-grow: 1; /* Permitir que el texto ocupe el espacio restante */
+    
+}
+
+.texto p {
+    margin: 0; /* Eliminar el margen predeterminado del párrafo */
+    font-size: 15px; /* Tamaño de fuente deseado */
+    text-align: start;
+}
+
+aside{
+    margin-right: 30%;
+}
