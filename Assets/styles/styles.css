@@ -36,23 +36,17 @@ main {
 /* Estilos del aside */
 aside {
     grid-column: 12 / span 3;
-<<<<<<< HEAD
     grid-row: 2 / span 11;
     background-color: #000000;
-=======
-    grid-row: 2 / span 12;
-    background-color: #48575E;
-    color: #fff;
->>>>>>> 4a916f325af968fa1178e58fea743672059ae90c
     padding-top: 20px;
 }
 
-    grid-row: 2 / span 13;
+    /* grid-row: 2 / span 13;
     background-color: #48575E;
     color: #fff;
     margin-top: 20px;
     margin-bottom: 20px;
-}
+} */
 
 
 
@@ -94,7 +88,7 @@ p {
     font-weight: lighter;
 }
 
-#texto {
+
 p {
     font-family: 'Arial', sans-serif;
     font-size: 20px;
@@ -107,7 +101,7 @@ p {
     font-weight: lighter;
 }
 
-#logo {
+
 
 #logo {
     width: 150px;
